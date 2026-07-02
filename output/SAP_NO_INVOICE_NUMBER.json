@@ -1,0 +1,12 @@
+{
+    "supplier": "SAP",
+    "invoice_number": "Invoice Date:",
+    "invoice_date": "2026-06-18",
+    "due_date": "2026-07-18",
+    "amount": "400.00 EUR",
+    "currency": "EUR",
+    "validation": {
+        "status": "OK",
+        "errors": []
+    }
+}

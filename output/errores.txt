@@ -1,0 +1,15 @@
+Proveedor: Oracle
+Importe: -500
+Moneda: EUR
+ERROR: Proveedor no registrado
+-------------------------
+Proveedor: Google
+Importe: 100
+Moneda: USD
+ERROR: Proveedor no registrado
+-------------------------
+Proveedor: Amazon
+Importe: 300
+Moneda: PESETA
+ERROR: Moneda no valida
+-------------------------

@@ -1,0 +1,12 @@
+{
+    "supplier": "MICROSOFT",
+    "invoice_number": "INV-2026-0006",
+    "invoice_date": "2026-06-18",
+    "due_date": "Currency",
+    "amount": "350.00 EUR",
+    "currency": "EUR",
+    "validation": {
+        "status": "OK",
+        "errors": []
+    }
+}

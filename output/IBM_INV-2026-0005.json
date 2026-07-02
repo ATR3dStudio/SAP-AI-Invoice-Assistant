@@ -1,0 +1,12 @@
+{
+    "supplier": "IBM",
+    "invoice_number": "INV-2026-0005",
+    "invoice_date": "Due Date:",
+    "due_date": "2026-07-18",
+    "amount": "650.00 EUR",
+    "currency": "EUR",
+    "validation": {
+        "status": "OK",
+        "errors": []
+    }
+}

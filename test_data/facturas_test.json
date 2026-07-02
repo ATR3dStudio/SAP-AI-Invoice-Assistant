@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Factura correcta",
+        "invoice": {
+            "supplier": "AMAZON BUSINESS EU S.A.R.L.",
+            "invoice_number": "INV-2026-0001",
+            "amount": "1076.90 EUR",
+            "currency": "EUR"
+        },
+        "resultado_esperado": "OK"
+    },
+    {
+        "nombre": "Proveedor no permitido",
+        "invoice": {
+            "supplier": "ORACLE",
+            "invoice_number": "INV-2026-0002",
+            "amount": "500.00 EUR",
+            "currency": "EUR"
+        },
+        "resultado_esperado": "RECHAZADA"
+    },
+    {
+        "nombre": "Factura sin número",
+        "invoice": {
+            "supplier": "AMAZON BUSINESS EU S.A.R.L.",
+            "invoice_number": "",
+            "amount": "800.00 EUR",
+            "currency": "EUR"
+        },
+        "resultado_esperado": "RECHAZADA"
+    },
+    {
+        "nombre": "Moneda no permitida",
+        "invoice": {
+            "supplier": "AMAZON BUSINESS EU S.A.R.L.",
+            "invoice_number": "INV-2026-0003",
+            "amount": "300.00 CHF",
+            "currency": "CHF"
+        },
+        "resultado_esperado": "RECHAZADA"
+    }
+]

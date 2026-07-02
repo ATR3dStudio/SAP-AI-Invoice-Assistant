@@ -1,0 +1,14 @@
+{
+    "supplier": "ORACLE",
+    "invoice_number": "INV-2026-0002",
+    "invoice_date": "2026-06-18",
+    "due_date": "2026-07-18",
+    "amount": "980.00 EUR",
+    "currency": "EUR",
+    "validation": {
+        "status": "RECHAZADA",
+        "errors": [
+            "Proveedor no permitido"
+        ]
+    }
+}

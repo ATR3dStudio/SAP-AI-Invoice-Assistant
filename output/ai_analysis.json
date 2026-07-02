@@ -1,0 +1,53 @@
+[
+    {
+        "archivo": "ORACLE_INV-2026-0002.pdf",
+        "invoice_number": "INV-2026-0002",
+        "supplier": "ORACLE",
+        "status": "RECHAZADA",
+        "errors": [
+            "Proveedor no permitido"
+        ],
+        "ai": {
+            "summary": "La factura del proveedor ORACLE ha sido rechazada debido a que este proveedor no está autorizado en el sistema SAP FI/MM, impidiendo su procesamiento.",
+            "severity": "MEDIUM",
+            "sap_module": "SAP FI/MM",
+            "business_impact": "La no autorización del proveedor detiene el procesamiento de la factura, afectando potencialmente la cadena de suministro y el cumplimiento de pagos en tiempo.",
+            "recommended_action": "Verificar y validar la lista de proveedores autorizados en SAP, actualizar el maestro de proveedores si ORACLE debe ser aceptado, o contactar al área de compras para confirmar la relación con este proveedor.",
+            "btp_service": "SAP Business Technology Platform Integration Suite para automatizar la validación y actualización de maestro de proveedores"
+        }
+    },
+    {
+        "archivo": "TESLA_INV-2026-0007.pdf",
+        "invoice_number": "INV-2026-0007",
+        "supplier": "TESLA",
+        "status": "RECHAZADA",
+        "errors": [
+            "Proveedor no permitido"
+        ],
+        "ai": {
+            "summary": "La factura emitida por el proveedor TESLA fue rechazada debido a que el proveedor no está autorizado en el sistema SAP FI/MM para procesar pagos.",
+            "severity": "HIGH",
+            "sap_module": "SAP FI/MM",
+            "business_impact": "El rechazo puede causar retrasos en el proceso de cuentas por pagar y afectar las relaciones con proveedores importantes, además de posibles problemas en la conciliación financiera.",
+            "recommended_action": "Verificar y actualizar la lista de proveedores autorizados en SAP para incluir a TESLA si corresponde, o bien comunicar al proveedor que no está aprobado para facturación. Revisar políticas internas de proveedores y realizar la validación previa para evitar rechazos futuros.",
+            "btp_service": "SAP Business Technology Platform - Workflow Management para automatizar la aprobación y validación de proveedores"
+        }
+    },
+    {
+        "archivo": "UNKNOWN_SUPPLIER_INV-2026-0003.pdf",
+        "invoice_number": "INV-2026-0003",
+        "supplier": "Invoice Number:",
+        "status": "RECHAZADA",
+        "errors": [
+            "Proveedor no permitido"
+        ],
+        "ai": {
+            "summary": "La factura INV-2026-0003 ha sido rechazada porque el proveedor que la emitió no está registrado o autorizado en el sistema SAP MM. Esto impide procesar el pago y la contabilización de la factura.",
+            "severity": "HIGH",
+            "sap_module": "SAP MM / SAP FI",
+            "business_impact": "El rechazo impide contabilizar y pagar la factura, lo que puede retrasar la gestión financiera y afectar relaciones con proveedores. Además, se corre el riesgo de incumplimiento contractual si el proveedor no está autorizado correctamente.",
+            "recommended_action": "Validar y registrar al proveedor en el sistema SAP MM como proveedor autorizado antes de aceptar y procesar facturas asociadas. Revisar el catálogo de proveedores permitidos y actualizar los datos maestros de proveedores si es necesario.",
+            "btp_service": "SAP Business Technology Platform - SAP Workflow Management para automatizar la validación y autorización de proveedores en el proceso de facturación."
+        }
+    }
+]
