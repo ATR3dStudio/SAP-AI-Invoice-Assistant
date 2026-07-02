@@ -1,64 +1,50 @@
 [
-    {
-        "supplier": "AMAZON BUSINESS EU S.A.R.L.",
-        "invoice_number": "INV-2026-0001",
-        "invoice_date": "2026-06-18",
-        "due_date": "2026-07-18",
-        "amount": "1076.90 EUR",
-        "currency": "EUR"
-    },
-
-    {
-        "supplier": "ORACLE",
-        "invoice_number": "INV-2026-0002",
-        "invoice_date": "2026-06-18",
-        "due_date": "2026-07-18",
-        "amount": "980.00 EUR",
-        "currency": "EUR"
-    },
-
-    {
-        "supplier": "",
-        "invoice_number": "INV-2026-0003",
-        "invoice_date": "2026-06-18",
-        "due_date": "2026-07-18",
-        "amount": "150.00 EUR",
-        "currency": "EUR"
-    },
-
-    {
-        "supplier": "SAP",
-        "invoice_number": "",
-        "invoice_date": "2026-06-18",
-        "due_date": "2026-07-18",
-        "amount": "400.00 EUR",
-        "currency": "EUR"
-    },
-
-    {
-        "supplier": "IBM",
-        "invoice_number": "INV-2026-0005",
-        "invoice_date": "",
-        "due_date": "2026-07-18",
-        "amount": "650.00 EUR",
-        "currency": "EUR"
-    },
-
-    {
-        "supplier": "MICROSOFT",
-        "invoice_number": "INV-2026-0006",
-        "invoice_date": "2026-06-18",
-        "due_date": "",
-        "amount": "350.00 EUR",
-        "currency": "EUR"
-    },
-
-    {
-        "supplier": "TESLA",
-        "invoice_number": "INV-2026-0007",
-        "invoice_date": "2026-06-18",
-        "due_date": "2026-07-18",
-        "amount": "250.00 EUR",
-        "currency": "USD"
-    }
+  {
+    "supplier": "AMAZON BUSINESS EU S.A.R.L.",
+    "invoice_number": "INV-2026-0001",
+    "invoice_date": "2026-06-18",
+    "due_date": "2026-07-18",
+    "amount": "1076.90 EUR",
+    "currency": "EUR"
+  },
+  {
+    "supplier": "GLOBAL TECH SERVICES",
+    "invoice_number": "INV-2026-0002",
+    "invoice_date": "2026-06-18",
+    "due_date": "2026-07-18",
+    "amount": "980.00 EUR",
+    "currency": "EUR"
+  },
+  {
+    "supplier": "SAP",
+    "invoice_number": "",
+    "invoice_date": "2026-06-18",
+    "due_date": "2026-07-18",
+    "amount": "400.00 EUR",
+    "currency": "EUR"
+  },
+  {
+    "supplier": "IBM",
+    "invoice_number": "INV-2026-0005",
+    "invoice_date": "",
+    "due_date": "2026-07-18",
+    "amount": "650.00 EUR",
+    "currency": "EUR"
+  },
+  {
+    "supplier": "MICROSOFT",
+    "invoice_number": "INV-2026-0006",
+    "invoice_date": "2026-06-18",
+    "due_date": "",
+    "amount": "350.00 EUR",
+    "currency": "EUR"
+  },
+  {
+    "supplier": "TESLA",
+    "invoice_number": "INV-2026-0007",
+    "invoice_date": "2026-06-18",
+    "due_date": "2026-07-18",
+    "amount": "250.00 USD",
+    "currency": "USD"
+  }
 ]

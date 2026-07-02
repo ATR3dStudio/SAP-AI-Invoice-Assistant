@@ -12,7 +12,7 @@ with open(input_file, "r", encoding="utf-8") as file:
     facturas = json.load(file)
 
 for factura in facturas:
-    supplier = factura["supplier"] if factura["supplier"] != "" else "UNKNOWN_SUPPLIER"
+    supplier = factura["supplier"] if factura["supplier"] != "" else "UNKNOWN SUPPLIER"
     invoice_number = factura["invoice_number"] if factura["invoice_number"] != "" else "NO_INVOICE_NUMBER"
 
     file_name = f"{supplier}_{invoice_number}.pdf"
@@ -25,7 +25,7 @@ for factura in facturas:
     y = height - 80
 
     pdf.setFont("Helvetica-Bold", 16)
-    pdf.drawString(50, y, factura["supplier"])
+    pdf.drawString(50, y, supplier)
     y -= 40
 
     pdf.setFont("Helvetica", 11)

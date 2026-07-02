@@ -3,12 +3,13 @@
     "invoice_number": "INV-2026-0007",
     "invoice_date": "2026-06-18",
     "due_date": "2026-07-18",
-    "amount": "250.00 EUR",
+    "amount": "250.00 USD",
     "currency": "USD",
     "validation": {
         "status": "RECHAZADA",
         "errors": [
-            "Proveedor no permitido"
+            "Proveedor no permitido",
+            "Moneda no permitida"
         ]
     }
 }
