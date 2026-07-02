@@ -99,7 +99,8 @@ Business Validation
 ↓
 
 Approved
-      │
+ 
+      or
 
 Rejected
 
