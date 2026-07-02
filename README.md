@@ -114,13 +114,12 @@ Dashboard
 
 ---
 
-## Dashboard
 
 ## Dashboard
 
 The project generates an interactive HTML dashboard with invoice status, validation results and AI analysis.
 
-[Open dashboard file](dashboard.html)
+[Open Live Dashboard](https://atr3dstudio.github.io/SAP-AI-Invoice-Assistant/dashboard.html)
 
 ---
 
